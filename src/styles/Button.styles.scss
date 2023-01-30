@@ -24,6 +24,10 @@ button {
 	}
 }
 
+button.disableShadow {
+	box-shadow: none;
+}
+
 button.text {
 	color: $blue;
 	background-color: transparent;

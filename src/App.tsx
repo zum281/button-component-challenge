@@ -15,6 +15,10 @@ function App() {
 				<code>{"<Button variant='text' />"}</code>
 				<Button variant='text'>Text</Button>
 			</div>
+			<div className='button-element'>
+				<code>{"<Button disableShadow />"}</code>
+				<Button disableShadow>Default</Button>
+			</div>
 		</div>
 	);
 }
