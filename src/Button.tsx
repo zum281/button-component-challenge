@@ -6,6 +6,7 @@ export const Button: FC<Props> = ({
 	disableShadow = false,
 	startIcon,
 	endIcon,
+	size = "md",
 	...props
 }) => {
 	const { children, ...rest } = props;
@@ -14,7 +15,7 @@ export const Button: FC<Props> = ({
 			{...rest}
 			className={`${variant !== "default" ? variant : undefined} ${
 				disableShadow ? "disableShadow" : undefined
-			}`}>
+			} ${size}`}>
 			{startIcon && (
 				<span className='material-symbols-outlined'>{startIcon}</span>
 			)}
@@ -31,6 +32,7 @@ type Props = {
 	disableShadow?: boolean;
 	startIcon?: string | null;
 	endIcon?: string | null;
+	size?: "sm" | "md" | "lg";
 } & React.DetailedHTMLProps<
 	React.ButtonHTMLAttributes<HTMLButtonElement>,
 	HTMLButtonElement

@@ -49,6 +49,18 @@ function App() {
 					Full list of icons
 				</a>
 			</div>
+			<div className='button-element'>
+				<code>{"<Button size='sm' />"}</code>
+				<Button size='sm'>Default</Button>
+			</div>
+			<div className='button-element'>
+				<code>{"<Button size='md' />"}</code>
+				<Button size='md'>Default</Button>
+			</div>
+			<div className='button-element'>
+				<code>{"<Button size='lg' />"}</code>
+				<Button size='lg'>Default</Button>
+			</div>
 		</div>
 	);
 }
