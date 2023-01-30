@@ -16,6 +16,54 @@ function App() {
 				<Button variant='text'>Text</Button>
 			</div>
 			<div className='button-element'>
+				<code>{"<Button color='primary' />"}</code>
+				<Button color='primary'>Default</Button>
+			</div>
+			<div className='button-element'>
+				<code>{"<Button color='primary' variant='outline' />"}</code>
+				<Button color='primary' variant='outline'>
+					Default
+				</Button>
+			</div>
+			<div className='button-element'>
+				<code>{"<Button color='primary' variant='text' />"}</code>
+				<Button color='primary' variant='text'>
+					Default
+				</Button>
+			</div>
+			<div className='button-element'>
+				<code>{"<Button color='secondary' />"}</code>
+				<Button color='secondary'>Default</Button>
+			</div>
+			<div className='button-element'>
+				<code>{"<Button color='secondary' variant='outline' />"}</code>
+				<Button color='secondary' variant='outline'>
+					Default
+				</Button>
+			</div>
+			<div className='button-element'>
+				<code>{"<Button color='secondary' variant='text' />"}</code>
+				<Button color='secondary' variant='text'>
+					Default
+				</Button>
+			</div>
+			<div className='button-element'>
+				<code>{"<Button color='danger' />"}</code>
+				<Button color='danger'>Default</Button>
+			</div>
+			<div className='button-element'>
+				<code>{"<Button color='danger' variant='outline' />"}</code>
+				<Button color='danger' variant='outline'>
+					Default
+				</Button>
+			</div>
+			<div className='button-element'>
+				<code>{"<Button color='danger' variant='text' />"}</code>
+				<Button color='danger' variant='text'>
+					Default
+				</Button>
+			</div>
+			<div className='button-element'>
 				<code>{"<Button disableShadow />"}</code>
 				<Button disableShadow>Default</Button>
 			</div>
